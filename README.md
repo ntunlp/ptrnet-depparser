@@ -1,5 +1,5 @@
 # ptrnet-depparser
-This is the source code of our depedency parser proposed in paper "Hierarchical Pointer Net Parsing" accepted by EMNLP 2019.
+This is the source code of our depedency parser proposed in paper "[Hierarchical Pointer Net Parsing](https://arxiv.org/abs/1908.11571)" accepted by EMNLP 2019.
 Git Repository: https://github.com/ntunlp/ptrnet-depparser.git
 
 # Requirements
@@ -19,3 +19,16 @@ ID, FORM, LEMMA, CPOSTAG, POSTAG, MORPH-FEATURES, HEAD, DEPREL, PHEAD, PDEPREL
 1. Update ./examples/run_HPtrNetParser.sh to select the model you want to test, for example `MODELNAME=HPtrNetPSTGate`.
 2. Run command `bash ./examples/run_HPtrNetParser.sh`.
 
+# Citation
+Please cite our paper if you found the resources in this repository useful.
+```
+@inproceedings{liu2019hierarchical,
+    title={Hierarchical Pointer Net Parsing},
+    author={Linlin Liu and Xiang Lin and Shafiq Joty and Simeng Han and Lidong Bing},
+    year={2019},
+    month = {November},
+    address={Hong Kong, China},
+    url={https://arxiv.org/abs/1908.11571},
+    booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
+}
+```
